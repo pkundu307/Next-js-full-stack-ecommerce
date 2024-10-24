@@ -2,6 +2,7 @@
 "use client"
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Navbar from '@/components/general/Navbar';
 
 const Signup: React.FC = () => {
   const [email, setEmail] = useState('');
@@ -22,6 +23,7 @@ const Signup: React.FC = () => {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
+    <Navbar/>
       <form
         onSubmit={handleSubmit}
         className="bg-white p-6 rounded shadow-md w-full max-w-sm"

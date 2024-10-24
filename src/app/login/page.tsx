@@ -30,7 +30,7 @@ const Login: React.FC = () => {
         {error && <p className="text-red-500 mb-4">{error}</p>}
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2">
-            Email
+            Emailll
           </label>
           <input
             type="email"
